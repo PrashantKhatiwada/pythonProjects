@@ -6,7 +6,7 @@ import wikipedia
 import webbrowser
 import smtplib
 import json
-import  requests
+import requests
 
 emails = {
     'prashant': 'pkhatiwada58@gmail.com',
@@ -80,7 +80,7 @@ if __name__ == '__main__':
             webbrowser.open("youtube.com")
         elif 'open google' in query:
             webbrowser.open("google.com")
-        elif 'open stackoverflow' in query:
+        elif 'open stack overflow' in query:
             webbrowser.open("stackoverflow.com")
         elif 'the time' in query:
             strTime = datetime.datetime.now().strftime("%H:%M:%S")
